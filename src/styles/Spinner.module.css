@@ -1,0 +1,17 @@
+.spinner{
+  padding-top: 60px;
+  color:beige;
+  text-align: center;
+  margin: 30px;
+}
+
+
+.spinning {
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
